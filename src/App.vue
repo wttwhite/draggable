@@ -1,18 +1,16 @@
 <template>
   <div class="app-layout">
-    <SidebarCom class="sidebar"/>
     <router-view />
   </div>
 </template>
 <script>
-import SidebarCom from '@/page/sidebar'
 export default {
   name: 'App',
-  components: { SidebarCom },
 }
 </script>
 <style>
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -27,4 +25,3 @@ html, body {
   height: 100%;
 }
 </style>
-
