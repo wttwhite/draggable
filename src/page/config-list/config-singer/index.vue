@@ -1,7 +1,11 @@
 <template>
   <div>
     <div class="left"></div>
-    <div class="center"></div>
+    <div class="center">
+      <vue-draggable-resizable resizable>
+        <div>22</div>
+      </vue-draggable-resizable>
+    </div>
     <div class="right"></div>
   </div>
 </template>

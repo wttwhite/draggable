@@ -25,6 +25,7 @@
     "prettier": "^2.4.1",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
+    "vue-draggable-resizable": "^2.3.0",
     "vue-template-compiler": "^2.6.14"
   }
 }

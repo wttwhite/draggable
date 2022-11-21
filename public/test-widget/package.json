@@ -1,0 +1,67 @@
+{
+	"name": "test-widget",
+	"cn_name": "部件名字",
+	"version": "0.0.1",
+	"description": "",
+	"author": "",
+	"hik_visual": {
+		"width": 500,
+		"height": 400,
+		"configStyle": [
+			{
+				"id": "textContent",
+				"type": "input",
+				"label": "文本内容",
+				"defaultValue": "文字默认值 - hello world",
+				"description": "显示的文字内容",
+				"option": {}
+			},
+			{
+				"id": "textColor",
+				"type": "color",
+				"label": "文本字色",
+				"defaultValue": {
+					"value": "#2196f3",
+					"opacity": "1"
+				},
+				"description": "文本字体颜色"
+			},
+			{
+				"id": "textSize",
+				"type": "number",
+				"label": "文本字号",
+				"defaultValue": 14,
+				"description": "文字字体大小"
+			}
+		],
+		"dataConfig": [
+			{
+				"apiName": "api-name",
+				"apiAddress": "",
+				"dataType": "api",
+				"typeReadOnly": false,
+				"dataSource": [
+					{
+						"noticeId": 1,
+						"publishStatus": 1,
+						"publishTime": "2020/09/25 14:30:00",
+						"publisherName": "Admin",
+						"title": "（静态数据）公告标题1",
+						"updateTime": "2020/09/25 14:50:00"
+					},
+					{
+						"noticeId": 2,
+						"publishStatus": 1,
+						"publishTime": "2020/09/26 14:30:00",
+						"publisherName": "Admin",
+						"title": "（静态数据）公告标题2",
+						"updateTime": "2020/09/26 14:50:00"
+					}
+				]
+			}
+		]
+	},
+	"__option__": {
+		"type": 1
+	}
+}

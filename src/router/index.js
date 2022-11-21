@@ -3,17 +3,17 @@
 const routes = [
   {
     path: '/',
-    redirect: '/config-list',
+    redirect: '/config-singer',
   },
-  {
-    path: '/config-list',
-    name: 'config-list',
-    component: () => import('@/page/config-list'),
-    meta: {
-      title: 'config-list',
-      isMenu: true,
-    },
-  },
+  // {
+  //   path: '/config-list',
+  //   name: 'config-list',
+  //   component: () => import('@/page/config-list'),
+  //   meta: {
+  //     title: 'config-list',
+  //     isMenu: true,
+  //   },
+  // },
   {
     path: '/config-singer',
     name: 'config-singer',

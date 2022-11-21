@@ -6,6 +6,9 @@ import elementUi from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import '@/style/common.css'
 
+import VueDraggableResizable from 'vue-draggable-resizable'
+Vue.component('vue-draggable-resizable', VueDraggableResizable)
+
 Vue.use(VueRouter)
 Vue.use(elementUi)
 
